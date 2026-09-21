@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RESTAssured API Suite" verbose="1">
+
+<!--    <listeners>-->
+<!--        <listener class-name="API.listeners.TestListeners"/>-->
+<!--    </listeners>-->
+
+    <test name="User API Tests">
+        <classes>
+            <class name="ToolShopAPITests.UserAPITest"/>
+        </classes>
+    </test>
+
+</suite>
