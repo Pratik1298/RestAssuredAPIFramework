@@ -32,6 +32,7 @@ public class UserAPITest {
         System.out.println(loginResponse.getExpires_in());
         System.out.println(loginResponse.getToken_type());
 
+
        // Assert.assertEquals(loginResponse.getToken_type(),"bearer");
     }
 

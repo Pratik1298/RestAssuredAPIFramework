@@ -38,5 +38,6 @@ public class BrandAPITest {
         BrandService brandService = new BrandService();
         Response response = brandService.retrieveSpecificBrand();
         System.out.println(response.asPrettyString());
+        System.out.println(response.statusCode());
     }
 }
