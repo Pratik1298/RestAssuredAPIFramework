@@ -11,5 +11,15 @@
             <class name="ToolShopAPITests.UserAPITest"/>
         </classes>
     </test>
+    <test name="Product API Test">
+        <classes>
+            <class name="ToolShopAPITests.ProductAPITest"/>
+        </classes>
+    </test>
+    <test name="Brand API Test">
+        <classes>
+            <class name="ToolShopAPITests.BrandAPITest"/>
+        </classes>
+    </test>
 
 </suite>

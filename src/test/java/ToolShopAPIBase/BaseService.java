@@ -42,5 +42,8 @@ public class BaseService { //is meant to be a parent/base class that other test 
         return requestSpecification.contentType(ContentType.JSON).body(payload).put(endpoints);
     }
 
+    protected Response patchRequest(Object payload, String endpoints){
+        return requestSpecification.contentType(ContentType.JSON).body(payload).patch(endpoints);
+    }
 
 }
